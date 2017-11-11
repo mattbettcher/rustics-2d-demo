@@ -1,0 +1,17 @@
+[package]
+name = "rustics2d-demo"
+version = "0.1.0"
+authors = ["Matthew Bettcher <mattbettcher@gmail.com>"]
+
+[profile.dev]
+opt-level = 0
+
+[dependencies]
+random = "0.12.2"
+nalgebra = "0.13"
+
+[dependencies.ggez]
+path = "../ggez"
+
+[dependencies.rustics-2d]
+path = "../rustics-2d"
